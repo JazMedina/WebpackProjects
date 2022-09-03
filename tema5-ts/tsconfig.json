@@ -1,0 +1,15 @@
+//Vincular webpack y Typescript
+{
+	//Se especifica como se va a procesas el Typescript
+
+	"compilerOptions": {
+		"outDir": "./dist/",//directorio de salida
+		"sourceMap": true,//permite compilar todos los archivos de forma correcta
+		"noImplicitAny": true,//Errores de declaración en el archivo
+		"module": "es6",//ECMASCRIPT6
+		"target": "es5",//Versión del código
+		"jsx": "react",//Especificar si se va trabajar con react
+		"allowJs":true,//Trabajar con código de JavaScript
+		"moduleResolution": "node"//Resolución de módulo con node
+	}
+}
