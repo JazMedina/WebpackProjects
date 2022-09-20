@@ -1,0 +1,32 @@
+hr,
+h1,
+i {
+	color: #f16726;
+}
+
+.text-light-per {
+	background: #ebebeb;
+}
+
+nav {
+	border-bottom: solid 3px rgba(196, 77, 22, 1);
+	font-weight: 600;
+}
+
+.card {
+	border: 1px solid #f16726;
+}
+
+.card-header {
+	background-color: #f16726;
+	color: #fff;
+	font-weight: 500;
+}
+
+.card-per>.card-header {
+	height: 70px;
+}
+
+.card-per>.card-body {
+	height: 200px;
+}

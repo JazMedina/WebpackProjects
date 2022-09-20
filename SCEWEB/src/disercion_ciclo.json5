@@ -1,0 +1,32 @@
+{
+	motivo1: {
+       porcentaje: '28.8%',
+	   motivo: 'Perdió el contacto con su(s) maestro/a(s) o no pudo hacer las tareas',
+	},
+	motivo2: {
+	   porcentaje: '22.4%',
+	   motivo: 'Alguien de la vivienda se quedó sin trabajo o se redujeron sus ingresos',	
+	},
+	motivo3: {
+       porcentaje: '20.2%',
+	   motivo: 'La escuela cerró definitivamente',	
+	},
+	motivo4: {
+       porcentaje: '17.7%',
+	   motivo: 'Carencia de computadora, otro dispositivo o de conexión a internet',
+	},
+	motivo5: {
+	   porcentaje: '16.6%',
+	   motivo: 'Otro(escuela cerró temporalmente, entre otros)',
+	},
+	motivo6: {
+       porcentaje: '15.4%',
+	   motivo: 'Considera que las clases a distancia son poco funcionales para el aprendizaje',
+	},
+	motivo7: {
+       porcentaje: '14.6%',
+	   motivo: 'El padre, madre o tutor no pudo estar al pendiente de él(ella)',
+
+	}
+}
+

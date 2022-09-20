@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ESTADISTICAS</title>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg  navbar-dark fixed-top bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="estadisticas.html">ESTADISTICAS</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="unicef.html">UNICEF</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row my-5 ">
+				<div class="col-md-12 my-5 text-center">
+					<h1>¿Qué dice INEGI?</h1><br>
+					<p>Con la finalidad de aportar información de interés y actualidad, el Instituto Nacional de
+						Estadística y Geografía (INEGI) presenta los resultados de la Encuesta para la Medición del
+						Impacto COVID-19 en la Educación (ECOVID-ED) 2020.</p>
+
+				</div>
+			</div>
+			<hr>
+			<div class="row my-5">
+				<div class="col-md-4">
+					<h2>¿Cómo se hizo? <i class="bi bi-telephone-forward-fill"></i></h2>
+					<p></i>A través de llamadas telefónicas a viviendas que
+						cuentan con teléfono fijo y celular.</p>
+				</div>
+				<div class="col-md-4">
+					<h2>¿Cuándo se hizo?</h2>
+					<p>
+						Periodo de levantamiento de la información del 23 de noviembre al 18 de diciembre de 2020.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h2>¿A quién? <i class="bi bi-people-fill"></i></h2>
+					<p>Los informantes fueron personas mayores de 18 años y la
+						población objetivo fueron estudiantes
+						entre 3 y 29 años.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row my-5 text-start">
+				<div class="col-md-12 my-5">
+					<h1>Uso de las TIC's</h1><br>
+					<p>Para continuar con la educación a distancia través del uso de las Tecnologías de la
+						Información y Comunicación(TIC) han sido indispensables
+						para la comunicación entre docentes y alumnado.</p>
+				</div>
+				<div class="col-md-8">
+					<div class="card p-0">
+						<div class="card-header">
+							Porcentaje de la población de 3 a 29 años en el ciclo escolar 2019-2020, según principales
+							aparatos o dispositivos electrónicos usados para sus actividades escolares o clases a
+							distancia
+						</div>
+						<div class="card-body">
+							<canvas id="grafica_tics"></canvas>
+							<blockquote>Fuente: INEGI. Encuesta para la Medición del impacto COVID-19 en la Educación.
+							</blockquote>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-end">
+					<p><strong>La herramienta digital más utilizada por el alumnado fue el teléfono inteligente</strong>
+						principalmente de los niveles primaria, secundaria y medio superior; mientras que
+						los alumnos de <strong>superior el principal medio fue computadora de escritorio</strong>
+						para realizar sus actividades escolares.</p>
+				</div>
+			</div>
+			<hr>
+			<div class="row my-5 text-start">
+				<div class="col-md-12 my-5">
+					<h1>Conclusión del ciclo escolar</h1><br>
+					<p>Un fenómeno no deseado para todo sistema educativo es el tema de la no conclusión de
+						un ciclo escolar, pues habla de la eficiencia en la conclusión de un determinado año
+						escolar, y no concluir un año escolar puede significar un retraso en la continuación.</p>
+				</div>
+				<div class="col-md-4 text-start">
+					<p>Se identifica además que <strong>la no conclusión es ligeramente más alta entre
+							la población que estuvo inscrita en una escuela privada.</strong> En el caso de
+						los hombres esta situación alcanza 5.5% en comparación con 2.1%
+						observado para escuela pública; la diferencia entre la no conclusión en
+						escuelas privadas y públicas para las mujeres es un poco menor.</p>
+				</div>
+				<div class="col-md-8">
+					<div class="card p-0">
+						<div class="card-header">
+							Distribución porcentual de población de 3 a 29 años inscrita en el ciclo escolar 2019-2020,
+							por sexo y condición de conclusión del año escolar según tipo de sostenimiento de la escuela
+						</div>
+						<div class="card-body">
+							<div class="table-responsive">
+								<table class="table table-bordered table-striped">
+									<thead>
+										<tr>
+											<th></th>
+											<th>Condición</th>
+											<th>Pública</th>
+											<th>Privada</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td rowspan="2">País</td>
+											<td>Concluyó</td>
+											<td>98.0%</td>
+											<td>2.0%</td>
+										</tr>
+										<tr>
+											<td>No concluyó</td>
+											<td>95.8%</td>
+											<td>4.2%</td>
+										</tr>
+										<tr>
+											<td rowspan="2">Mujeres</td>
+											<td>Concluyó</td>
+											<td>98.1%</td>
+											<td>1.9%</td>
+										</tr>
+										<tr>
+											<td>No concluyó</td>
+											<td>97.2%</td>
+											<td>2.8%</td>
+										</tr>
+										<tr>
+											<td rowspan="2">Hombres</td>
+											<td>Concluyó</td>
+											<td>97.9%</td>
+											<td>2.1%</td>
+										</tr>
+										<tr>
+											<td>No concluyó</td>
+											<td>94.5%</td>
+											<td>5.5%</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<blockquote>Fuente: INEGI. Encuesta para la Medición del impacto COVID-19 en la Educación.
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row my-5 text-start">
+				<div class="col-md-4 text-light-per">
+					<h1>Diserción al ciclo 2020-2021</h1><br>
+					<p>Más de la mitad (58.9%), alrededor de 435 mil estudiantes señaló que no concluyó el ciclo por un
+						motivo relacionado a la COVID-19 de los cuales las principales razones fueron pérdida de
+						contacto con maestros, reducción de ingresos en la vivienda o la escuela cerró definitivamente.
+					</p>
+				</div>
+				<div class="col-md-8">
+					<div class="card p-0">
+						<div class="card-header">
+							Distribución porcentual de población de 3 a 29 años inscrita en el ciclo escolar 2019-2020 y
+							concluyó el año escolar, por motivo de no conclusión y la razón principal cuando fue
+							relacionado a la pandemia por la COVID-19
+						</div>
+						<div class="card-body">
+							<table class="table table-bordered table-striped">
+								<thead>
+									<tr>
+										<th>%</th>
+										<th>Motivo</th>
+									</tr>
+								</thead>
+								<tbody id="tbody_disercion_esc">
+
+								</tbody>
+							</table>
+							<p>Nota: la suma de motivos es mayor a 100% dado que se podia mencionar más de 1 motivo.</p>
+							<blockquote>Fuente: INEGI. Encuesta para la Medición del impacto COVID-19 en la Educación.
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row my-5 text-start">
+				<div class="col-md-4 text-light-per">
+					<h1>Inscripción al ciclo 2020-2021</h1><br>
+					<p>Sobre los motivos detallados de no inscribirse a efecto de la pandemia por la
+						COVID-19,<strong> los
+							2.3 millones de personas mencionadas anteriormente, se identifica que 26.6% no se inscribió
+							por
+							considerar que las clases a distancia son poco funcionales para el aprendizaje;</strong>
+						25.3% debido a
+						que alguno de sus padres o tutores se quedaron sin trabajo. </p>
+				</div>
+				<div class="col-md-8">
+					<div class="card p-0">
+						<div class="card-header">
+							Distribución porcentual de la población de 3 a 29 años que no se inscribió en el ciclo
+							escolar 2020-2021 a causa de la COVID-19, por motivo principal
+						</div>
+						<div class="card-body">
+							<canvas id="grafica_inscripcion"></canvas>
+							<p>Nota: El porcentaje suma más del 100% debido a que se menciona más de un motivo, y no se
+								grafica la opción otro</p>
+							<blockquote>Fuente: INEGI. Encuesta para la Medición del impacto COVID-19 en la Educación.
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row my-5 ">
+				<div id="lst_act_escolares" class="col-md-12 my-5">
+				</div>
+			</div>
+	</main>
+	<footer class="footer mt-auto py-3 bg-light">
+		<div class="container">
+			<span class="text-muted">Impacto COVID19 en la educación</span>
+			<span>Creado por Jazmin Medina</span>
+		</div>
+	</footer>
+</body>
+
+</html>
